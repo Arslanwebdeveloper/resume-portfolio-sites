@@ -1,0 +1,308 @@
+
+<!--
+  Name: Muhammad Arslan
+  Roll No: FA23-BCS-030
+  Class: BSCS 5th Semester (Section A)
+  Course: Web Engineering (CLO-2)
+  Instructor: Mr. Ali Sultan
+  Date: 20 Oct 2025
+-->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Arslan | Portfolio</title>
+
+  <!-- Bootstrap CSS & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- AOS (Animate On Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+
+    section {
+      scroll-margin-top: 70px;
+    }
+  </style>
+</head>
+
+<body class="bg-dark text-light">
+
+  <!-- ======= Sidebar ======= -->
+  <header class="d-flex flex-column align-items-center text-center p-4 bg-black vh-100 position-fixed"
+    style="width:260px;">
+    <img src="images/profile_pick.jpg" alt="Profile" class="rounded-circle mb-3 shadow " width="130">
+    <h4 class="fw-bold">Muhammad Arslan</h4>
+    <p class="text-secondary">Web Developer & Flutter App Developer</p>
+
+    <!-- Social Links -->
+    <div class="mt-3 mb-4">
+      <a href="https://www.facebook.com/" target="_blank" class="text-secondary mx-2"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/" target="_blank" class="text-secondary mx-2"><i
+          class="bi bi-instagram"></i></a>
+      <a href="https://www.linkedin.com/" target="_blank" class="text-secondary mx-2"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/" target="_blank" class="text-secondary mx-2"><i class="bi bi-github"></i></a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav flex-column text-start w-100">
+      <a href="#hero" class="nav-link text-light py-2"><i class="bi bi-house"></i> Home</a>
+      <a href="#about" class="nav-link text-light py-2"><i class="bi bi-person"></i> About</a>
+      <a href="#skills" class="nav-link text-light py-2"><i class="bi bi-lightning"></i> Skills</a>
+      <a href="#projects" class="nav-link text-light py-2"><i class="bi bi-image"></i> Projects</a>
+      <a href="#contact" class="nav-link text-light py-2"><i class="bi bi-envelope"></i> Contact</a>
+      <a href="login.html" class="nav-link text-info py-2"><i class="bi bi-box-arrow-in-right"></i> Login</a>
+      <a href="logout.html" class="nav-link text-danger py-2"><i class="bi bi-box-arrow-right"></i> Logout</a>
+    </nav>
+  </header>
+
+  <!-- ======= Main Content ======= -->
+  <main class="p-3 p-md-4" style="margin-left:0; margin-left:280px;">
+
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center text-center vh-100"
+      style="background:url('images/profile_background.jpg') no-repeat center/cover;">
+      <div class="bg-dark bg-opacity-75 p-5 rounded-4" data-aos="zoom-in" data-aos-duration="1000">
+        <img src="images/profile_pick.jpg" alt="Profile" class="rounded-circle shadow mb-3" width="150">
+        <h2 class="fw-bold">Muhammad Arslan</h2>
+        <p class="lead text-info">I'm <span class="typed"
+            data-typed-items="Developer, Designer, Freelancer, Student"></span></p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container py-5" data-aos="fade-up" data-aos-duration="1000">
+      <h2 class="text-center text-primary mb-4 fw-bold">About Me</h2>
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center mb-3" data-aos="fade-right" data-aos-duration="1000">
+          <img src="images/profile_background.jpg" class="img-fluid rounded-circle shadow" alt="Profile">
+        </div>
+        <div class="col-md-8" data-aos="fade-left" data-aos-duration="1000">
+          <p class="lead">
+            I’m Muhammad Arslan, a passionate <strong>Web Developer</strong> focused on building responsive
+            and modern websites.
+            I work with HTML, CSS, JavaScript, Bootstrap, and Flutter to create user-friendly web apps.
+          </p>
+          <ul class="list-unstyled">
+            <li><i class="bi bi-chevron-right text-primary"></i> <strong>Birthday:</strong> 1 February 2003
+            </li>
+            <li><i class="bi bi-chevron-right text-primary"></i> <strong>City:</strong> Vehari, Pakistan
+            </li>
+            <li><i class="bi bi-chevron-right text-primary"></i> <strong>Email:</strong>
+              fa23-bcs-030@cuivehari.edu.pk</li>
+            <li><i class="bi bi-chevron-right text-primary"></i> <strong>Freelancer:</strong> Available</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container py-5" data-aos="fade-up" data-aos-duration="1000">
+      <h2 class="text-center text-primary mb-4 fw-bold">Skills</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <p class="mb-1 fw-semibold">HTML <span class="float-end">95%</span></p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-info" style="width: 95%"></div>
+          </div>
+
+          <p class="mb-1 fw-semibold">CSS <span class="float-end">80%</span></p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 80%"></div>
+          </div>
+
+          <p class="mb-1 fw-semibold">Bootstrap <span class="float-end">75%</span></p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-warning" style="width: 75%"></div>
+          </div>
+
+          <p class="mb-1 fw-semibold">JavaScript <span class="float-end">70%</span></p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-danger" style="width: 70%"></div>
+          </div>
+
+          <p class="mb-1 fw-semibold">Flutter <span class="float-end">90%</span></p>
+          <div class="progress">
+            <div class="progress-bar bg-primary" style="width: 90%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container py-5">
+      <h2 class="text-center text-primary mb-4 fw-bold" data-aos="fade-up">My Work & Projects</h2>
+
+      <!-- Project 1 -->
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
+          <img src="images/html.jpeg" class="img-fluid rounded shadow float-start" alt="HTML Project">
+        </div>
+        <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
+          <h4 class="fw-bold">HTML Landing Page</h4>
+          <p>HTML (HyperText Markup Language) is the foundation of every website.
+            It structures all the content you see on a webpage such as text, images, and links.
+            In my portfolio, HTML defines the layout and sections, forming the backbone of the entire site..
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6 order-md-2" data-aos="fade-left" data-aos-duration="1000">
+          <img src="images/css.jpeg" class="img-fluid rounded shadow float-end" alt="CSS Project">
+        </div>
+        <div class="col-md-6 order-md-1" data-aos="fade-right" data-aos-duration="1000">
+          <h4 class="fw-bold">CSS3 Responsive Design</h4>
+          <p>This portfolio is styled using CSS (Cascading Style Sheets) to make the design modern and
+            attractive.
+            CSS is used to control the layout, colors, fonts, and animations of each section.
+            With CSS, I created a responsive, visually appealing, and user-friendly interface that looks
+            great on all devices..</p>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
+          <img src="images/flutter.jpeg" class="img-fluid rounded shadow float-start" alt="Flutter Project">
+        </div>
+        <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
+          <h4 class="fw-bold">Flutter Mobile App</h4>
+          <p> This portfolio showcases projects developed using Flutter, a powerful framework by Google for
+            building cross-platform apps.
+            With a single codebase, I can create beautiful, fast, and responsive applications for Android,
+            iOS, web, and desktop.
+            Flutter’s expressive UI widgets and Dart language make development smooth and visually
+            appealing.</p>
+        </div>
+        <div class="row align-items-center mb-5">
+          <div class="col-md-6 order-md-2" data-aos="fade-left" data-aos-duration="1000">
+            <img src="images/JavaScript.jpeg" class="img-fluid rounded shadow float-end" alt="CSS Project">
+          </div>
+          <div class="col-md-6 order-md-1" data-aos="fade-right" data-aos-duration="1000">
+            <h4 class="fw-bold">JavaScript</h4>
+            <p>JavaScript adds interactivity and logic to web pages.
+              It enables animations, dynamic content, and user interaction in my portfolio.
+              By using JS, I’ve made my website smooth, responsive, and full of motion.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container py-5" data-aos="fade-up">
+      <h2 class="text-center text-primary mb-4 fw-bold">Contact Me</h2>
+      <p class="text-center">You can reach me at <strong>fa23-bcs-030@cuivehari.edu.pk</strong> or connect via
+        social links below.</p>
+    </section>
+    <!-- ======= Contact Form (Updated to match your site) ======= -->
+    <section id="contact" class="container py-5">
+      <h2 class="text-center text-primary mb-4 fw-bold">Get in Touch</h2>
+
+      <form class="row g-3 needs-validation bg-black p-4 rounded-4 shadow" novalidate>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label text-light">First Name</label>
+          <input type="text" class="form-control bg-dark text-light border-secondary" id="validationTooltip01" required>
+          <div class="valid-tooltip">Looks good!</div>
+        </div>
+
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip02" class="form-label text-light">Last Name</label>
+          <input type="text" class="form-control bg-dark text-light border-secondary" id="validationTooltip02" required>
+          <div class="valid-tooltip">Looks good!</div>
+        </div>
+
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltipUsername" class="form-label text-light">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text bg-secondary text-light border-0">@</span>
+            <input type="text" class="form-control bg-dark text-light border-secondary" id="validationTooltipUsername"
+              aria-describedby="validationTooltipUsernamePrepend" required>
+            <div class="invalid-tooltip">Please choose a valid username.</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 position-relative">
+          <label for="validationTooltip03" class="form-label text-light">City</label>
+          <input type="text" class="form-control bg-dark text-light border-secondary" id="validationTooltip03" required>
+          <div class="invalid-tooltip">Please provide a valid city.</div>
+        </div>
+
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip04" class="form-label text-light">State</label>
+          <select class="form-select bg-dark text-light border-secondary" id="validationTooltip04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>Punjab</option>
+            <option>Sindh</option>
+            <option>KPK</option>
+            <option>Balochistan</option>
+          </select>
+          <div class="invalid-tooltip">Please select a valid state.</div>
+        </div>
+
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip05" class="form-label text-light">Zip</label>
+          <input type="text" class="form-control bg-dark text-light border-secondary" id="validationTooltip05" required>
+          <div class="invalid-tooltip">Please provide a valid zip.</div>
+        </div>
+
+        <div class="col-12 text-center">
+          <button class="btn btn-info px-4 mt-3" type="submit">
+            <i class="bi bi-send-fill me-2"></i>Submit Form
+          </button>
+        </div>
+      </form>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-black text-center py-3 mt-5" data-aos="fade-up">
+      <div class="mb-2">
+        <a href="https://www.facebook.com/" class="text-secondary mx-2"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/" class="text-secondary mx-2"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/" class="text-secondary mx-2"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/" class="text-secondary mx-2"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <p class="mb-0 small">&copy; 2025 Muhammad Arslan Portfolio | All Rights Reserved</p>
+    </footer>
+  </main>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+  <!-- Typed.js Script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new Typed(".typed", {
+        strings: document.querySelector(".typed").getAttribute("data-typed-items").split(","),
+        typeSpeed: 80,
+        backSpeed: 50,
+        backDelay: 2000,
+        loop: true
+      });
+    });
+  </script>
+</body>
+
+</html>
